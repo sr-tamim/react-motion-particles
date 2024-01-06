@@ -38,6 +38,46 @@ Each `MotionParticle` child of `MotionParticlesContainer` will move based on mou
 
 Negative `motionSpeed` values will move the MotionParticle in the opposite direction of the mouse movement or device movement.
 
+You can also use the `MotionParticlesContainer` at the root of your react app and then you can use the `MotionParticle` component anywhere in your app.
+
+```js
+// App.js file
+import React from 'react';
+import MotionParticlesContainer from '@wensyve/react-motion-particles';
+
+function App() {
+    return (
+        <MotionParticlesContainer>
+            <div className="app">
+                {/* Your content */}
+            </div>
+        </MotionParticlesContainer>
+    );
+}
+
+export default App;
+```
+
+```js
+// SomeOtherComponent.js file
+import React from 'react';
+import { MotionParticle } from '@wensyve/react-motion-particles';
+
+function SomeOtherComponent() {
+    return (
+        <div>
+            <MotionParticle motionSpeed={2.5}>
+                <div>{/* Your content */}</div>
+            </MotionParticle>
+            <MotionParticle motionSpeed={1}>
+                <div>{/* Your content */}</div>
+            </MotionParticle>
+        </div>
+    );
+}
+```
+
+
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request if you have a way to improve this project.
 
