@@ -1,0 +1,37 @@
+{
+  "name": "@wensive/motion-particles",
+  "description": "Background particles which moves depending on mouse movement or device movement for ReactJS",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sr-tamim/motion-particles.git"
+  },
+  "author": "SR Tamim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sr-tamim/motion-particles/issues"
+  },
+  "homepage": "https://github.com/sr-tamim/motion-particles#readme",
+  "keywords": [
+    "particles",
+    "particlesjs",
+    "motion-particles",
+    "wensyve",
+    "react-particles",
+    "moving-particles"
+  ]
+}

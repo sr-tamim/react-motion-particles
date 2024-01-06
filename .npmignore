@@ -1,0 +1,22 @@
+# Ignore development files and directories
+node_modules/
+
+
+# Ignore configuration files
+tsconfig.json
+tsconfig.*.json
+yarn.lock
+
+# Ignore source control files
+.git/
+.gitignore
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore miscellaneous files
+*.log
+.DS_Store
