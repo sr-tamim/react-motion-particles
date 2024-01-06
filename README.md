@@ -48,6 +48,6 @@ Contributions are welcome! Feel free to open an issue or submit a pull request i
 [![sr-tamim's Profilator](https://profilator.deno.dev/sr-tamim?v=1.0.0.alpha.4)](https://github.com/sr-tamim)
 
 ## Contributors
-[![Contributors](https://contrib.rocks/image?repo=sr-tamim/react-motion-particles)]
+![Contributors](https://contrib.rocks/image?repo=sr-tamim/react-motion-particles)
 
 #### Powered by [WENSYVE](https://wensyve.com)
