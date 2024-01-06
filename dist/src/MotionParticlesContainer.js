@@ -1,6 +1,6 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 import { useEffect, useRef } from 'react';
-const MotionParticles = ({ children }) => {
+const MotionParticlesContainer = ({ children }) => {
     const containerRef = useRef(null);
     useEffect(() => {
         startMovingParticles();
@@ -31,6 +31,6 @@ const MotionParticles = ({ children }) => {
             element.style.transform = `translate(${moveX}px, ${moveY}px)`;
         });
     }
-    return _jsx("div", { className: 'background-particles-container', ref: containerRef, children: children });
+    return _jsx("div", { className: 'motion-particles-container', ref: containerRef, children: children });
 };
-export default MotionParticles;
+export default MotionParticlesContainer;

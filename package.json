@@ -1,7 +1,7 @@
 {
-  "name": "@wensive/motion-particles",
-  "description": "Background particles which moves depending on mouse movement or device movement for ReactJS",
-  "version": "0.0.1",
+  "name": "@wensyve/react-motion-particles",
+  "description": "A React component library for creating interactive motion particles effects based on mouse movements or device movement.",
+  "version": "0.0.2",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
